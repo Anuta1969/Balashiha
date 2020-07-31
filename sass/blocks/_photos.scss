@@ -1,0 +1,57 @@
+.photos {
+
+    padding-top: 48px;
+    padding-bottom: 55px;
+    background-color:  #fdf1cf;
+    max-height: 504px;
+    &__image {
+    margin-left: -283px;
+    margin-top: 67px;
+    }
+    &__bg   {
+
+        display: flex;
+        position: absolute;
+        top: 831px;
+        left: 280px;
+        z-index: 3;
+    }
+    &__wrapper {
+        display: flex;
+        z-index: 3;
+        position: relative;
+    }
+    &__text {
+        margin-left: 46px;
+        background-color:  #fdf1cf;
+        z-index: 6;
+        margin-left: 46px;
+        color: #1b1b1b;
+    }
+    p {
+        color: #1b1b1b;
+        font-family: Roboto-Regular;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 23px;
+        max-width: 378px;
+        margin-left: 10px;
+    }
+    .photos1 {
+
+        margin-left: -227px;
+        margin-right: -177px;
+    }
+    .slider {
+        width: 560px;
+        height: 334px;
+      
+      
+    }
+    .slick-dots {
+        display: flex;
+        li {
+            margin-right: 10px;
+        }
+    }
+}

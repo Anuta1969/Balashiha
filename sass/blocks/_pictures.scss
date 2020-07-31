@@ -1,0 +1,7 @@
+.pictures {
+    width: 100%;
+    &__wrapper {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}

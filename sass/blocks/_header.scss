@@ -1,0 +1,65 @@
+
+.header {
+
+    background-color: #fdf1cf;
+    max-height: 85px;
+    &__logo {
+
+        border-left: 2px solid white;
+        border-right: 2px solid white;
+    }
+    &__wrapper {
+        display: flex;
+        margin: 0 auto;
+        justify-content: space-between;
+    }
+    &__info {
+        display: flex;
+    }
+    &__name {
+        color: #393939;
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 21px;
+        text-transform: uppercase;
+        margin-top: -25px;
+    }
+    &__small-name {
+        font-family: Roboto-Light;
+        font-size: 11px;
+        font-weight: normal;
+        line-height: 13.55px;
+        color: #f64747;
+    }
+    &__text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 24px;
+
+    }
+    &__icons {
+        margin-top: 9px;
+    }
+    &__call {
+        margin-top: 18px;
+    }
+    &__phone {
+        color: #393939;
+        font-family: Roboto-Bold;
+        font-size: 24px;
+        line-height: 21px;
+        text-decoration: none;
+    }
+    &__callme {
+        color: #f64747;
+        border-bottom: 1px dashed #f64747;
+        text-decoration: none;
+    }
+    span {
+        font-size: 16px;
+        text-decoration: none;
+        font-family: Roboto-Bold;
+        line-height: 21px;
+    }
+}

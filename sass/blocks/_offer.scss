@@ -1,0 +1,58 @@
+.offer {
+    padding-top: 53px;
+    padding-bottom: 41px;
+    background-color: #eb974e;
+    .forma {
+    &__footer {
+        display: flex;
+        margin-top: 12px;
+        width: 25%;
+        margin: 0 auto;
+        margin-top: 12px;
+    }
+    &__end {
+        color: #ffffff;
+        font-family: Roboto-Light;
+        font-size: 11px;
+        font-weight: normal;
+        line-height: 11px;
+        text-align: center;
+    }
+    input {
+        display: block;
+        width: 251px;
+        height: 45px;
+        border-radius: 5px;
+        border: none;
+        margin: 0 auto;
+        margin-top: 6px;
+        padding-left: 15px;
+    }
+    .search {
+        margin-top: 28px;
+        display: flex;
+        width: 90%;
+        justify-content: center;
+        margin: 0 auto;
+ 
+    }
+}
+
+    .name {
+        background-image: url(/src/icon/input1.png);
+        background-repeat: no-repeat;
+        background-position: right 12px center;
+    
+    }
+    .mail {
+        background-image: url(/src/icon/input2.png);
+        background-repeat: no-repeat;
+        background-position: right 12px center;
+    }
+
+    .phone {
+        background-image: url(/src/icon/input3.png);
+        background-repeat: no-repeat;
+        background-position: right 12px center;
+    }
+}

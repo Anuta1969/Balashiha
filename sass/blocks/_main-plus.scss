@@ -1,0 +1,23 @@
+.main-plus {
+    padding-top :45px;
+    padding-bottom: 50px;
+    height: 600px;
+    position: relative;
+    &__image1 {
+        position: absolute;
+        top: 27px;
+        left: 100px;
+    }
+    &__image2  {
+        position: absolute;
+        top: 200px;
+        right: 30px;
+    }
+    iframe {
+        margin-left: 380px;
+        margin-top: 29px;
+        position: relative;
+        z-index: 5;
+        display: block;
+    }
+}

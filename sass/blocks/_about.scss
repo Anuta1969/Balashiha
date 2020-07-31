@@ -1,0 +1,30 @@
+.about {
+
+    padding-top: 50px;
+    background-color: #fdf1cf;
+    padding-bottom: 50px;
+    
+        &__text {
+            font-family: Roboto-Regular;
+            font-size: 15px;
+            line-height: 21px;
+            color: #1b1b1b;
+            margin: 0 auto;
+        }
+        &__image {
+            margin: -121px 0 0 0;
+        }
+        span {
+            font-family: Roboto-Bold;
+            font-size: 15px;
+            font-weight: 300;
+            line-height: 21px;
+            color: #1b1b1b;
+            font-weight: bold;
+        }
+        iframe {
+            display: block;
+            margin: 0 auto;
+            margin-top: 30px;
+        }
+}
